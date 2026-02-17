@@ -17,6 +17,5 @@ public class Main {
         loanTerm = 36;
         monthlyPayment = service.calculate(loanAmount, loanTerm);
         System.out.println("Ежемесячный платеж равен: " + monthlyPayment);
-
     }
 }
